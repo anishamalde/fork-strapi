@@ -5,6 +5,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 100%; /* 16px base font */
     overflow-x: hidden;
     background-color: #fff;
+    margin: 0;
   }
 
   a {
