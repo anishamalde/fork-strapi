@@ -19,7 +19,6 @@ const RecipeCard = ({ recipe }) => {
 
   const imageUrl = process.env.REACT_APP_BACKEND_URL + recipe.image.url;
 
-  console.log(imageUrl);
   return (
     <Card className={classes.card}>
       <Link to={`/recipe/${recipe.slug}`}>
