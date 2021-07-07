@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "name": "recipe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "ingredients": {
+      "type": "richtext",
+      "required": true
+    },
+    "method": {
+      "type": "richtext",
+      "required": true
+    },
+    "cookingTime": {
+      "type": "text",
+      "required": true
+    },
+    "servingSize": {
+      "type": "text",
+      "required": false
+    },
+    "calories": {
+      "type": "text",
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "category": {
+      "model": "category",
+      "via": "recipes"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["files", "images", "videos"],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

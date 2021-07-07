@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "name": "Brunch",
+      "slug": "brunch"
+    },
+    {
+      "name": "Dinner",
+      "slug": "dinner"
+    },
+    {
+      "name": "Vegan",
+      "slug": "vegan"
+    },
+    {
+      "name": "Under 30mins",
+      "slug": "under-30-mins"
+    }
+  ],
+  "homepage": {
+    "seo": {
+      "metaTitle": "My personal Strapi blog",
+      "metaDescription": "Discover my SEO friendly blog built with Strapi.",
+      "shareImage": null
+    },
+    "hero": {
+      "title": "My blog"
+    }
+  },
+  "recipes": [
+    {
+      "title": "Mediterranean Cauliflower Salad",
+      "method": "Toss some cauliflower florets in some olive oil and shwarma spice / curry powder and roast at 180c for 25 mins\n\n In a pan toss a can of chickpeas in 1tsp olive oil, soya sauce, ketchup, minced garlic, harissa and lemon juice until the skins are crispy. Keep warm in the over. \n\nMake a labneh by adding some sumac and olive oil to some Greek yoghurt.\n\n Mix 2 tbsp of tahni with 1 tbsp honey and 1 tbsp warm water for a tahino dressing\n\nServe my mixing everything and topping with some pine nuts, pomegranate and spring onions.",
+      "ingredients": "1 Cauliflower\n\n1 Pomegrante\n\n1 Can drained chickpeas\n\n1 Bunch spring onions\n\n1 Handful peanuts or pinenuts\n\n1 Cup Yoghurt\n\nTahini\n\n1/2 tsp Curry powder\n\n1tsp Olive oil\n\n1tsp Soya sauce\n\n1tsp Ketchup\n\n2tsp Minced garlic\n\n1tsp Harissa\n\n1tsp Lemon juice",
+      "servingSize": "2 people",
+      "slug": "cauliflower-salad",
+      "cookingTime": "30 mins",
+      "calories": "400 kcal",
+      "category": {
+        "id": 4
+      },
+      "description": "Who needs roses when you've got this gorgeous cauliflower? This will be the best warm salad you ever eat. Each bite is an explosion of flavours and packed with nutrition.",
+      "image": null
+    },
+    {
+      "title": "Maple-glazed parsnip, chestnut & feta roast",
+      "method": "Heat the oven to 190°C/170°C fan/ gas 5. Lightly butter a deep 20cm loose-bottomed cake tin and line the base with baking paper. Steam the parsnips for 5-8 minutes to take off the raw edge (they don’t need to be cooked all the way through). Put in a colander and leave to dry.\n\nSpread the pecans and almonds in an even layer on a baking sheet, then toast for 5 minutes in the oven. Add the pine nuts and toast for 3-5 minutes more until golden. Cool, roughly chop and set aside.\n\nMelt 75g butter in a large frying pan on a low heat. Add the leeks, season and cook gently, stirring occasionally, for 10 minutes until soft and sweet, then transfer to a large mixing bowl.\n\nAdd the remaining 75g butter to the frying pan and turn up the heat to high. When the butter is hot and foaming, add the mushrooms, season with salt and pepper, then cook for 5-7 minutes, tossing every now and then, until golden brown. Add the chestnuts and garlic, then cook for 2 minutes, stirring so the garlic doesn’t brown. Add the mixture to the leeks, along with the chopped nuts, chopped herbs, breadcrumbs and flour. Taste and season.\n\nWipe out the frying pan and put it over a medium-high heat. Add the maple syrup and a knob of butter. When bubbling, add the parsnip pieces, without crowding the pan. Fry for 3-4 minutes until golden, then flip over and cook for another couple of minutes on the other side. Remove with a fish slice, leaving the syrup in the pan, and put the parsnips, flat-side down and spaced out a little, into the cake tin. Leave the buttery maple syrup in the pan.\n\nCrumble the feta into the nut mixture, then crack in the eggs and mix well to combine. Spoon the mixture on top of the parsnips and press down lightly. Bake in a 190°C/170°C fan/gas 5 oven for 45 minutes, covering the top with foil if it browns too much (a little colour is good). Let it cool in the tin for 10-15 minutes, then invert carefully onto a flat plate and peel off the baking paper.\n\nReheat the syrup in the pan, season with sea salt and add a few rosemary sprigs. Brush the caramel over the top of the loaf, decorate with the rosemary leaves and serve with a sharply dressed bitter salad.",
+      "ingredients": "150g unsalted butter, plus an extra knob and a little to grease\n\n150-200g parsnips, trimmed and cut lengthways into 1.5cm slices\n\n50g pecan halves or pieces\n\n50g blanched almonds\n\n30g pine nuts\n\n2 large leeks, sliced\n\n200g button or chestnut mushrooms, quite finely chopped\n\n200g chestnuts, roughly chopped\n\n2 large garlic cloves, crushed\n\n3 fresh rosemary sprigs, finely chopped, plus extra to garnish\n\n½ small bunch fresh sage, finely chopped\n\n4 fresh thyme sprigs, finely chopped\n\nSmall bunch fresh parsley, finely chopped\n\n100g fresh breadcrumbs\n\n50g plain flour\n\n100ml maple syrup\n\n200g feta cheese\n\n3 large free-range eggs",
+      "slug": "nut-roast",
+      "servingSize": "4 people",
+      "calories": "550 kcal",
+      "cookingTime": "Hands on time: 30 Mins, Oven Time: 45 Mins",
+      "category": {
+        "id": 1
+      },
+      "description": "The nut roast of all nut roasts. This vegetarian recipe is packed with the different textures and flavours of nuts, herbs, tangy feta and sweet, sticky parsnips.",
+      "image": null
+    },
+    {
+      "title": "Muthiya (Indian Fritters)",
+      "method": "Put all ingredients in a bowl and mix together\n\nMake into patties and pan fry\n\nFlip and sprinkle one side with sesame seeds and cook again\n\nServed warm with chai and yoghurt ☕",
+      "ingredients": "1 cup spinach\n\n1 cup cooked rice\n\n1 cup chickpea flour\n\n1 grated courgette / bitter gourd (pictured)\n\n2 grated carrot small\n\n2 tbsp Yoghurt (or soy yoghurt)\n\n2 tbsp chopped garlic and ginger\n\n2 tsp ground coriander and cumin\n\n1 chopped onion\n\n1 chopped chilli (or more)\n\n2 tbsp Fenugreek leaves\n\n1/2 tsp tumeric and sugar\n\nSalt to taste",
+      "slug": "gujarati-muthia",
+      "servingSize": "2 people",
+      "calories": "150 kcal / fritter",
+      "cookingTime": "30 mins",
+      "category": {
+        "id": 4
+      },
+      "description": "This is my modern take on the classic muthiya, a gujarati snack from my childhood. Usually a fridge cleaner made from leftover rice and vegetables this was a staple in my house on rainy days. This dish is usually served with yoghurt (or a yoghurt gravy called Khadi) alternatively they can be steamed and then pan fried in sesame seeds. My take is much easier with the same comfroting taste reminiscent of a rainy day in Kenya. Perfect with a cup of chai!",
+      "image": null
+    },
+    {
+      "title": "Tofu lettuce wraps",
+      "method": "Cube firm tofu and coat in corn flour and lots of salt and pepper (aromat too if you have some) and shallow fry until crispy, add a big splash of dark soy sauce and cook for 5 for mins.\n\nMeanwhile Stir fry 6 garlic cloves and 3 chopped red chillis in sesame hot oil until crispy.\n\nToss in a bunch of chopped spring onions, sweet orange and red pepper and a can of sweet corn. Season with soy sauce, add the tofu and mix once cooked\n\nServe on romaine lettuce with some Siracha mayo (mayo, sugar to taste and sriracha sauce)",
+      "ingredients": "400g Tofu\n\n3tbsp Corn Flour\n\nDark soy sauce\n\nLight Soy sauce\n\n4tsp Minced garlic\n\n2 Red Chillis\n\n1 Can sweetcorn\n\n1 Bunch spring onions\n\n1 Lettuce\n\n2 Sweet Peppers (Red/Yellow)\n\nSiracha Mayo",
+      "slug": "tofu-lettuce-wraps",
+      "cookingTime": "15 mins",
+      "servingSize": "2 people",
+      "calories": "450 kcal",
+      "category": {
+        "id": 2
+      },
+      "description": "Lettuce just talk about how amazing this combination is! This is the perfect low carb, high protein vegan meal.",
+      "image": null
+    },
+    {
+      "title": "Vegetable Fritters",
+      "method": "Grate 1 sweet potato, 2 small carrots / 1 large carrot, 1 courgette, a handful of chopped spinach and then leave in a bowl with a table spoon of salt to release the water.\n\nSqueeze out all the water using a towel\n\nSeason with 4 gloves of grated garlic + 1 finely chopped chilli + 1 bunch chopped spring onions + salt + pepper + chilli powder + coriander powder (1/2 tsp each)\n\nBind with 1 egg and 3 table spoons chickpea flour (or until you reach the right consistency)\n\nMake small patties and cook on a pan with a table spoon of oil - bake for extra crispness 🥔 Top / serve with greek yoghurt mixed with Harissa",
+      "ingredients": "1 sweet potato\n\n2 small carrots\n\n1 courgette\n\nChopped Spinach\n\n1 Bunch spring onions\n\n6 Cloves Garlic\n\n1/2 tsp each Salt + pepper + chilli powder + coriander powder\n\n1 Egg\n\n3tbsp Chickpea flour\n\n1 cup greek yoghurt\n\n1 tbsp Harissa Paste",
+      "slug": "vegetable-fritters",
+      "cookingTime": "30 mins",
+      "servingSize": "1 person",
+      "calories": "90 kcal /fritter",
+      "category": {
+        "id": 4
+      },
+      "description": "This stack of fritters isnt just all of your 5 a day, its flipping delicious too. Perfect for guilt free, tasty dinner or snack - or should I say stack",
+      "image": null
+    },
+    {
+      "title": "Authentic Veggie Paella",
+      "method": "Follow the instructions on the stock reduction tin, separate the amount needed for this recipe, and store the rest in the fridge or freezer. Simmer the stock in a saucepan before starting to cook.\n\nPlace the paella pan over high heat. Heat the sofrito oil in the paella pan, then add the vegetables and stir-fry. Add the rice, fry for 2 minutes, add the tomato sofrito and fry it lightly for 45 seconds.\n\nPour in the stock, bring to boil and cook over high heat for 6 minutes. Season according to your taste. Lower the temperature and cook for another 7 minutes.\n\nBefore serving, the last step is to make the socarrat – the crispy layer of rice that meets the pan. Bring the temperature up to the highest heat and cook for approximately 3 minutes. Check if the rice has soaked up all the stock and leave the paella to rest for a few minutes.",
+      "ingredients": "240g Bomba rice\n\n1200ml Arroz QD Vegetable stock\n\n50g Sofrito tomato\n\n50ml Sofrito oil\n\nGrilled red peppers\n\nGrilled aubergine\n\nFrozen Green beans & Peas\n\nGrilled Artichoke",
+      "slug": "veggie-paella",
+      "cookingTime": "30 mins",
+      "servingSize": "3 people",
+      "calories": "600 kcal",
+      "category": {
+        "id": 3
+      },
+      "description": "Deliciosa Paella! This Paella will take you to Spain and back. Bursting with flavour the stock really is the star of the show.",
+      "image": null
+    }
+  ]
+}
