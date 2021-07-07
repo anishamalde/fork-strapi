@@ -16,9 +16,7 @@ const Recipe = () => {
       {({ data: { recipes } }) => {
         if (recipes.length) {
           const imageUrl =
-            process.env.NODE_ENV !== 'development'
-              ? recipes[0].image.url
-              : process.env.REACT_APP_BACKEND_URL + recipes[0].image.url;
+            process.env.REACT_APP_BACKEND_URL + recipes[0].image.url;
 
           return (
             <>
