@@ -16,8 +16,6 @@ import useStyles from './Card.styles';
 const RecipeCard = ({ recipe }) => {
   const classes = useStyles();
 
-  const imageUrl = process.env.REACT_APP_BACKEND_URL + recipe.image.url;
-
   return (
     <Card className={classes.card}>
       <Link to={`/recipe/${recipe.slug}`}>
@@ -28,7 +26,7 @@ const RecipeCard = ({ recipe }) => {
         />
         <CardMedia
           className={classes.cardMedia}
-          image={imageUrl}
+          image={recipe.image.url}
           title={recipe.title}
         />
         <CardContent>

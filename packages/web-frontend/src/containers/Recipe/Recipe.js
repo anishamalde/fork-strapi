@@ -15,9 +15,6 @@ const Recipe = () => {
     <Query query={RECIPE_QUERY} slug={id}>
       {({ data: { recipes } }) => {
         if (recipes.length) {
-          const imageUrl =
-            process.env.REACT_APP_BACKEND_URL + recipes[0].image.url;
-
           return (
             <>
               <Grid container className={classes.grid}>
@@ -25,7 +22,7 @@ const Recipe = () => {
                   <Typography variant='h3'>{recipes[0].title}</Typography>
                 </Grid>
                 <Grid item xl={6} lg={8} xs={10}>
-                  <Image className={classes.image} src={imageUrl} />
+                  <Image className={classes.image} src={recipes[0].image.url} />
                 </Grid>
 
                 <Grid item xl={8} xs={12}>
