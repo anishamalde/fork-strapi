@@ -11,7 +11,6 @@ import {
 } from '@material-ui/core';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import useStyles from './Card.styles';
 
 const RecipeCard = ({ recipe }) => {
@@ -23,11 +22,6 @@ const RecipeCard = ({ recipe }) => {
     <Card className={classes.card}>
       <Link to={`/recipe/${recipe.slug}`}>
         <CardHeader
-          action={
-            <IconButton aria-label='settings'>
-              <MoreVertIcon />
-            </IconButton>
-          }
           title={recipe.title}
           subheader={recipe.cookingTime}
           className={classes.cardHeader}
