@@ -4,10 +4,10 @@ import theme from './theme';
 import GlobalStyles from './GlobalStyles';
 import {
   ThemeProvider as MuiThemeProvider,
-  createMuiTheme,
+  createTheme,
 } from '@material-ui/core/styles';
 
-const combinedTheme = createMuiTheme({
+const combinedTheme = createTheme({
   theme,
   typography: {
     fontFamily: ['"Helvetica Neue"'].join(','),

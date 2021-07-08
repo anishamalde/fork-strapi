@@ -1,7 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import useStyles from './HomeScreen.styles';
-import { Typography } from '@material-ui/core';
 
 const HomeScreen = () => {
   const classes = useStyles();
