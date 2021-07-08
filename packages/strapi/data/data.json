@@ -51,7 +51,7 @@
       "calories": "550 kcal",
       "cookingTime": "Hands on time: 30 Mins, Oven Time: 45 Mins",
       "category": {
-        "id": 1
+        "id": 2
       },
       "description": "The nut roast of all nut roasts. This vegetarian recipe is packed with the different textures and flavours of nuts, herbs, tangy feta and sweet, sticky parsnips.",
       "image": null
@@ -65,7 +65,7 @@
       "calories": "150 kcal / fritter",
       "cookingTime": "30 mins",
       "category": {
-        "id": 4
+        "id": 3
       },
       "description": "This is my modern take on the classic muthiya, a gujarati snack from my childhood. Usually a fridge cleaner made from leftover rice and vegetables this was a staple in my house on rainy days. This dish is usually served with yoghurt (or a yoghurt gravy called Khadi) alternatively they can be steamed and then pan fried in sesame seeds. My take is much easier with the same comfroting taste reminiscent of a rainy day in Kenya. Perfect with a cup of chai!",
       "image": null
@@ -79,7 +79,7 @@
       "servingSize": "2 people",
       "calories": "450 kcal",
       "category": {
-        "id": 2
+        "id": 4
       },
       "description": "Lettuce just talk about how amazing this combination is! This is the perfect low carb, high protein vegan meal.",
       "image": null
@@ -93,7 +93,7 @@
       "servingSize": "1 person",
       "calories": "90 kcal /fritter",
       "category": {
-        "id": 4
+        "id": 3
       },
       "description": "This stack of fritters isnt just all of your 5 a day, its flipping delicious too. Perfect for guilt free, tasty dinner or snack - or should I say stack",
       "image": null
@@ -107,7 +107,7 @@
       "servingSize": "3 people",
       "calories": "600 kcal",
       "category": {
-        "id": 3
+        "id": 2
       },
       "description": "Deliciosa Paella! This Paella will take you to Spain and back. Bursting with flavour the stock really is the star of the show.",
       "image": null
