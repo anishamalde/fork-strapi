@@ -23,5 +23,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.theme.colors.darkBlue,
     height: '56px',
   },
+  image: {
+    objectFit: 'cover',
+  },
 }));
 export default useStyles;

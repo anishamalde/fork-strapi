@@ -22,7 +22,11 @@ const Recipe = () => {
                   <Typography variant='h3'>{recipes[0].title}</Typography>
                 </Grid>
                 <Grid item xl={6} lg={8} xs={10}>
-                  <Image className={classes.image} src={recipes[0].image.url} />
+                  <img
+                    alt={recipes[0].title}
+                    className={classes.image}
+                    src={recipes[0].image.url}
+                  />
                 </Grid>
 
                 <Grid item xl={8} xs={12}>

@@ -7,3 +7,4 @@ export { default as SideNav } from './SideNav/SideNav';
 export { default as IngredientsList } from './IngredientsList/IngredientsList';
 export { default as MethodList } from './MethodList/MethodList';
 export { default as RecipeInfoCard } from './RecipeInfoCard/RecipeInfoCard';
+export { default as SharePopover } from './SharePopover/SharePopover';
