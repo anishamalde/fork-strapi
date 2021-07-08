@@ -16,6 +16,10 @@ import useStyles from './Card.styles';
 const RecipeCard = ({ recipe }) => {
   const classes = useStyles();
 
+  const onShareClick = () => {
+    navigator.clipboard.writeText(window.location.href);
+  };
+
   return (
     <Card className={classes.card}>
       <Link to={`/recipe/${recipe.slug}`}>
@@ -39,7 +43,7 @@ const RecipeCard = ({ recipe }) => {
         <IconButton aria-label='add to favorites'>
           <FavoriteIcon />
         </IconButton>
-        <IconButton aria-label='share'>
+        <IconButton onClick={() => onShareClick()} aria-label='share'>
           <ShareIcon />
         </IconButton>
       </CardActions>
