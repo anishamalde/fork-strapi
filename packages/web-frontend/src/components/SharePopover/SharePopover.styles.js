@@ -9,5 +9,8 @@ const useStyles = makeStyles((theme) => ({
     height: '32px',
     backgroundColor: theme.theme.colors.darkPink,
   },
+  shareIcon: {
+    color: theme.theme.colors.red,
+  },
 }));
 export default useStyles;

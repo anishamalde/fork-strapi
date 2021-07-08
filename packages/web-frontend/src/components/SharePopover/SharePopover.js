@@ -37,7 +37,11 @@ const SharePopover = () => {
 
   return (
     <>
-      <IconButton onClick={handleClick} aria-label='share'>
+      <IconButton
+        className={classes.shareIcon}
+        onClick={handleClick}
+        aria-label='share'
+      >
         <Share />
       </IconButton>
       <Menu
