@@ -12,13 +12,12 @@ import {
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import useStyles from './Card.styles';
+import { WhatsappShareButton, WhatsappIcon } from 'react-share';
 
 const RecipeCard = ({ recipe }) => {
   const classes = useStyles();
 
-  const onShareClick = () => {
-    navigator.clipboard.writeText(window.location.href);
-  };
+  const onShareClick = () => {};
 
   return (
     <Card className={classes.card}>
@@ -44,6 +43,9 @@ const RecipeCard = ({ recipe }) => {
           <FavoriteIcon />
         </IconButton>
         <IconButton onClick={() => onShareClick()} aria-label='share'>
+          {/* <WhatsappShareButton url={window.location.href}>
+            <WhatsappIcon />
+          </WhatsappShareButton> */}
           <ShareIcon />
         </IconButton>
       </CardActions>
