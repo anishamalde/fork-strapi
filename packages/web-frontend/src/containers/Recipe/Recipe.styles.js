@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
       marginTop: '-16px',
     },
     position: 'relative',
+    width: '100%',
   },
 }));
 export default useStyles;

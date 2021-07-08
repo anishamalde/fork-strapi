@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Card from '@material-ui/core/Card';
 import {
+  Card,
   CardHeader,
   CardContent,
   CardActions,
@@ -10,14 +10,11 @@ import {
   CardMedia,
 } from '@material-ui/core';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
+import { SharePopover } from '..';
 import useStyles from './Card.styles';
-import { WhatsappShareButton, WhatsappIcon } from 'react-share';
 
 const RecipeCard = ({ recipe }) => {
   const classes = useStyles();
-
-  const onShareClick = () => {};
 
   return (
     <Card className={classes.card}>
@@ -42,12 +39,7 @@ const RecipeCard = ({ recipe }) => {
         <IconButton aria-label='add to favorites'>
           <FavoriteIcon />
         </IconButton>
-        <IconButton onClick={() => onShareClick()} aria-label='share'>
-          {/* <WhatsappShareButton url={window.location.href}>
-            <WhatsappIcon />
-          </WhatsappShareButton> */}
-          <ShareIcon />
-        </IconButton>
+        <SharePopover />
       </CardActions>
     </Card>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../Card/Card';
+import { Card } from '..';
 import Grid from '@material-ui/core/Grid';
 
 const Recipes = ({ recipes }) => {
