@@ -9,9 +9,11 @@ import {
   Divider,
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import { Query } from '..';
+import CATEGORIES_QUERY from '../../queries/category/categories';
 import useStyles from './SideNav.styles';
 
-const SideNav = ({ categories }) => {
+const SideNav = () => {
   const classes = useStyles();
   const [state, setState] = useState({
     left: false,
@@ -30,38 +32,44 @@ const SideNav = ({ categories }) => {
   };
 
   const list = (anchor) => (
-    <div
-      className={classes.list}
-      role='presentation'
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
-      <List>
-        <>
-          <Divider />
-          <Link to={`/`}>
-            <ListItem button>
-              <ListItemText className={classes.listItem} primary='Home' />
-            </ListItem>
-          </Link>
-        </>
-        {categories.map((category) => {
-          return (
-            <div key={category.slug}>
-              <Divider />
-              <Link to={`/category/${category.slug}`}>
-                <ListItem button>
-                  <ListItemText
-                    className={classes.listItem}
-                    primary={category.name}
-                  />
-                </ListItem>
-              </Link>
-            </div>
-          );
-        })}
-      </List>
-    </div>
+    <Query query={CATEGORIES_QUERY} slug={null}>
+      {({ data: { categories } }) => {
+        return (
+          <div
+            className={classes.list}
+            role='presentation'
+            onClick={toggleDrawer(anchor, false)}
+            onKeyDown={toggleDrawer(anchor, false)}
+          >
+            <List>
+              <>
+                <Divider />
+                <Link to={`/`}>
+                  <ListItem button>
+                    <ListItemText className={classes.listItem} primary='Home' />
+                  </ListItem>
+                </Link>
+              </>
+              {categories.map((category) => {
+                return (
+                  <div key={category.slug}>
+                    <Divider />
+                    <Link to={`/category/${category.slug}`}>
+                      <ListItem button>
+                        <ListItemText
+                          className={classes.listItem}
+                          primary={category.name}
+                        />
+                      </ListItem>
+                    </Link>
+                  </div>
+                );
+              })}
+            </List>
+          </div>
+        );
+      }}
+    </Query>
   );
 
   return (
@@ -69,6 +77,7 @@ const SideNav = ({ categories }) => {
       <Button onClick={toggleDrawer('left', true)}>
         <MenuIcon className={classes.menu} />
       </Button>
+
       <SwipeableDrawer
         anchor='left'
         open={state['left']}

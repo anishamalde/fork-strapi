@@ -16,10 +16,13 @@ import {
 import { Share, FileCopy } from '@material-ui/icons';
 import useStyles from './SharePopover.styles';
 
-const SharePopover = () => {
+const SharePopover = ({ recipeSlug }) => {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = useState(null);
 
+  const shareUrl = `${window.location.origin}/recipe/${recipeSlug}`;
+
+  console.log(shareUrl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -32,7 +35,7 @@ const SharePopover = () => {
   const id = open ? 'simple-popover' : undefined;
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(window.location.href);
+    navigator.clipboard.writeText(shareUrl);
   };
 
   return (
@@ -61,7 +64,7 @@ const SharePopover = () => {
           <WhatsappShareButton
             title='Check-out this awesome Recipe!'
             className={classes.button}
-            url={window.location.href}
+            url={shareUrl}
           >
             <ListItemIcon>
               <WhatsappIcon size={32} round={true} />
@@ -72,7 +75,7 @@ const SharePopover = () => {
         <MenuItem>
           <FacebookMessengerShareButton
             className={classes.button}
-            url={window.location.href}
+            url={shareUrl}
           >
             <ListItemIcon>
               <FacebookMessengerIcon size={32} round={true} />

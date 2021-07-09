@@ -39,7 +39,7 @@ const RecipeCard = ({ recipe }) => {
         <IconButton aria-label='add to favorites'>
           <FavoriteIcon />
         </IconButton>
-        <SharePopover />
+        <SharePopover recipeSlug={recipe.slug} />
       </CardActions>
     </Card>
   );

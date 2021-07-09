@@ -20,12 +20,12 @@ const TopNav = () => {
       <div className={classes.grow}>
         <AppBar className={classes.app} position='static'>
           <Toolbar>
-            <Query query={CATEGORIES_QUERY} slug={null}>
+            {/* <Query query={CATEGORIES_QUERY} slug={null}>
               {({ data: { categories } }) => {
                 return <SideNav categories={categories} />;
               }}
-            </Query>
-
+            </Query> */}
+            <SideNav />
             <SearchBar />
             <div className={classes.grow} />
           </Toolbar>
