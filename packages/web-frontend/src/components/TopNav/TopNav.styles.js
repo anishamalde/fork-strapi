@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
   },
   image: {
     objectFit: 'cover',
+    width: '300px',
   },
 }));
 export default useStyles;

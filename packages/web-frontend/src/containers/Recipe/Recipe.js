@@ -3,7 +3,6 @@ import { useParams } from 'react-router';
 import { Query } from '../../components';
 import { IngredientsList, MethodList, RecipeInfoCard } from '../../components';
 import { Typography, Paper, Grid } from '@material-ui/core';
-import Image from 'material-ui-image';
 import RECIPE_QUERY from '../../queries/recipe/recipe';
 import useStyles from './Recipe.styles';
 

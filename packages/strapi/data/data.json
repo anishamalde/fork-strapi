@@ -18,14 +18,7 @@
     }
   ],
   "homepage": {
-    "seo": {
-      "metaTitle": "My personal Strapi blog",
-      "metaDescription": "Discover my SEO friendly blog built with Strapi.",
-      "shareImage": null
-    },
-    "hero": {
-      "title": "My blog"
-    }
+    "welcomeText": "Welcome to Fork around the world my food baby from eating my way through London! What started as a basic millennials instagram page slowly turned into my personal recipe log during Covid. However being a front-end developer, with too much time on my hands and no hobby other then eating good food, I thought I might as-well build a site that made my recipes easy to search.\n\nMy recipes are vegetarian and suited for the fast paced, gym filled (#Gains) life that London offers. So hopefully you enjoy exploring them; You can click on the menu in the top left hand corner to see the different categories or just search for your favourite ingredient. Each recipe can be easily shared and comes with checklist of the ingredients since we don't have all the time in the world to aimlessly walk through Tesco anymore.\n\nDrop me a follow on Instagram for the latest on my eating adventures and restaurant recommendations! Happy eating!"
   },
   "recipes": [
     {
