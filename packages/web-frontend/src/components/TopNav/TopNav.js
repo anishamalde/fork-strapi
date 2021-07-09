@@ -1,10 +1,8 @@
 import React from 'react';
 import { AppBar, Toolbar, Avatar } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import { SearchBar, SideNav, Query } from '..';
-import Image from 'material-ui-image';
+import { SearchBar, SideNav } from '..';
 import useStyles from './TopNav.styles';
-import CATEGORIES_QUERY from '../../queries/category/categories';
 import logo from '../../assets/fork-logo.png';
 import forkText from '../../assets/fork-text.png';
 

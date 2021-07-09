@@ -22,7 +22,6 @@ const SharePopover = ({ recipeSlug }) => {
 
   const shareUrl = `${window.location.origin}/recipe/${recipeSlug}`;
 
-  console.log(shareUrl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -30,9 +29,6 @@ const SharePopover = ({ recipeSlug }) => {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
-  const open = Boolean(anchorEl);
-  const id = open ? 'simple-popover' : undefined;
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(shareUrl);
