@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     padding: '32px',
+    justifyContent: 'center',
   },
   welcomeText: {
     marginTop: '32px',
@@ -23,6 +24,16 @@ const useStyles = makeStyles((theme) => ({
   },
   blueText: {
     color: theme.theme.colors.darkBlue,
+  },
+  imageList: {
+    width: 500,
+    marginTop: '36px !important',
+  },
+  image: {
+    top: '50%',
+    width: '100%',
+    position: 'relative',
+    transform: 'translateY(-50%)',
   },
 }));
 
