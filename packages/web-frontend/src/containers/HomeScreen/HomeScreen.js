@@ -54,7 +54,7 @@ const HomeScreen = () => {
         {({ data: { homepage } }) => {
           const welcomeTextArray = homepage.welcomeText.split('\n\n');
           return (
-            <Paper className={classes.welcomeText}>
+            <Paper elevation={3} className={classes.welcomeText}>
               {welcomeTextArray.map((textItem, index) => (
                 <Typography
                   className={
