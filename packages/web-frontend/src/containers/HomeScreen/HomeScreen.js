@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import shuffle from 'shuffle-array';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { Query } from '../../components';
 import useStyles from './HomeScreen.styles';
 import {
@@ -16,6 +16,7 @@ import HOMEPAGE_RECIPES_QUERY from '../../queries/homepage/recipes';
 
 const HomeScreen = () => {
   const classes = useStyles();
+  let history = useHistory();
   return (
     <Grid container className={classes.grid}>
       <div className={classes.title}>
@@ -34,14 +35,16 @@ const HomeScreen = () => {
           return (
             <ImageList rowHeight={160} className={classes.imageList} cols={3}>
               {recipesArray.map((recipe, index) => (
-                // <Link to={`/recipe/${recipe.slug}`}>
                 <ImageListItem
                   key={recipe.title}
                   cols={index === 0 || index === 6 ? 2 : 1}
                 >
-                  <img src={recipe.image.url} alt={recipe.title} />
+                  <img
+                    onClick={() => history.push(`/recipe/${recipe.slug}`)}
+                    src={recipe.image.url}
+                    alt={recipe.title}
+                  />
                 </ImageListItem>
-                // </Link>
               ))}
             </ImageList>
           );
@@ -52,18 +55,16 @@ const HomeScreen = () => {
           const welcomeTextArray = homepage.welcomeText.split('\n\n');
           return (
             <Paper className={classes.welcomeText}>
-              {welcomeTextArray.map((textItem, index) => {
-                return (
-                  <Typography
-                    className={
-                      index % 2 === 0 ? classes.redText : classes.blueText
-                    }
-                    key={`welcome-text ${index}`}
-                  >
-                    {textItem}
-                  </Typography>
-                );
-              })}
+              {welcomeTextArray.map((textItem, index) => (
+                <Typography
+                  className={
+                    index % 2 === 0 ? classes.redText : classes.blueText
+                  }
+                  key={`welcome-text ${index}`}
+                >
+                  {textItem}
+                </Typography>
+              ))}
             </Paper>
           );
         }}
