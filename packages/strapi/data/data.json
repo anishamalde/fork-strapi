@@ -13,24 +13,24 @@
       "slug": "vegan"
     },
     {
-      "name": "Under 30mins",
+      "name": "Under 30 minutes",
       "slug": "under-30-mins"
     }
   ],
   "homepage": {
-    "welcomeText": "Welcome to Fork around the world my food baby from eating my way through London! What started as a basic millennials instagram page slowly turned into my personal recipe log during Covid. However being a front-end developer, with too much time on my hands and no hobby other then eating good food, I thought I might as-well build a site that made my recipes easy to search.\n\nMy recipes are vegetarian and suited for the fast paced, gym filled (#Gains) life that London offers. So hopefully you enjoy exploring them; You can click on the menu in the top left hand corner to see the different categories or just search for your favourite ingredient. Each recipe can be easily shared and comes with checklist of the ingredients since we don't have all the time in the world to aimlessly walk through Tesco anymore.\n\nDrop me a follow on Instagram for the latest on my eating adventures and restaurant recommendations! Happy eating!"
+    "welcomeText": "Welcome to Fork around the world my food baby from eating my way through London! What started as a basic millennials Instagram page slowly turned into my personal recipe log during Covid. However being a front-end developer, with too much time on my hands and no hobby other than eating good food, I thought I might as-well build a site that made my recipes easy to search.\n\nMy recipes are vegetarian and suited for the fast paced, gym filled (#Gains) life that London offers. So hopefully you enjoy exploring them; You can click on the menu in the top left hand corner to see the different categories or just search for your favourite ingredient. Each recipe can be easily shared and comes with checklist of the ingredients since we don't have all the time in the world to aimlessly walk through Tesco anymore.\n\nDrop me a follow on Instagram for the latest on my eating adventures and restaurant recommendations! Happy eating!"
   },
   "recipes": [
     {
       "title": "Mediterranean Cauliflower Salad",
-      "method": "Toss some cauliflower florets in some olive oil and shwarma spice / curry powder and roast at 180c for 25 mins\n\n In a pan toss a can of chickpeas in 1tsp olive oil, soya sauce, ketchup, minced garlic, harissa and lemon juice until the skins are crispy. Keep warm in the over. \n\nMake a labneh by adding some sumac and olive oil to some Greek yoghurt.\n\n Mix 2 tbsp of tahini with 1 tbsp honey and 1 tbsp warm water for a tahino dressing\n\nServe my mixing everything and topping with some pine nuts, pomegranate and spring onions.",
-      "ingredients": "1 Cauliflower\n\n1 Pomegrante\n\n1 Can drained chickpeas\n\n1 Bunch spring onions\n\n1 Handful peanuts or pinenuts\n\n1 Cup Yoghurt\n\nTahini\n\n1/2 tsp Curry powder\n\n1tsp Olive oil\n\n1tsp Soya sauce\n\n1tsp Ketchup\n\n2tsp Minced garlic\n\n1tsp Harissa\n\n1tsp Lemon juice",
+      "method": "Toss some cauliflower florets in some olive oil and shawarma spice / curry powder and roast at 180c for 25 mins\n\n In a pan toss a can of chickpeas in 1tsp olive oil, soya sauce, ketchup, minced garlic, harissa and lemon juice until the skins are crispy. Keep warm in the over. \n\nMake a labneh by adding some sumac and olive oil to some Greek yoghurt.\n\n Mix 2 tbsp of tahini with 1 tbsp honey and 1 tbsp warm water for a tahini dressing\n\nServe by mixing everything and topping with some pine nuts, pomegranate and spring onions.",
+      "ingredients": "1 Cauliflower\n\n1 Pomegranate\n\n1 Can drained chickpeas\n\n1 Bunch spring onions\n\n1 Handful peanuts or pinenuts\n\n1 Cup Yoghurt (or Plant based Yoghurt)\n\nTahini\n\n1/2 tsp Curry powder\n\n1tsp Olive oil\n\n1tsp Soya sauce\n\n1tsp Ketchup\n\n2tsp Minced garlic\n\n1tsp Harissa\n\n1tsp Lemon juice",
       "servingSize": "2 people",
       "slug": "cauliflower-salad",
       "cookingTime": "30 mins",
       "calories": "400 kcal",
       "category": {
-        "id": 4
+        "id": 1
       },
       "description": "Who needs roses when you've got this gorgeous cauliflower? This will be the best warm salad you ever eat. Each bite is an explosion of flavours and packed with nutrition.",
       "image": null
@@ -44,7 +44,7 @@
       "calories": "550 kcal",
       "cookingTime": "Hands on: 30 Mins, Oven: 45 Mins",
       "category": {
-        "id": 2
+        "id": 4
       },
       "description": "The nut roast of all nut roasts. This vegetarian recipe is packed with the different textures and flavours of nuts, herbs, tangy feta and sweet, sticky parsnips.",
       "image": null
@@ -58,9 +58,9 @@
       "calories": "150 kcal / fritter",
       "cookingTime": "30 mins",
       "category": {
-        "id": 3
+        "id": 1
       },
-      "description": "This is my modern take on the classic muthiya, a gujarati snack from my childhood. Usually a fridge cleaner made from leftover rice and vegetables this was a staple in my house on rainy days. This dish is usually served with yoghurt (or a yoghurt gravy called Khadi) alternatively they can be steamed and then pan fried in sesame seeds. My take is much easier with the same comfroting taste reminiscent of a rainy day in Kenya. Perfect with a cup of chai!",
+      "description": "This is my modern take on the classic muthiya, a gujarati snack from my childhood. Usually a fridge cleaner made from leftover rice and vegetables this was a staple in my house on rainy days. This dish is usually served with yoghurt (or a yoghurt gravy called Khadi) alternatively they can be steamed and then pan fried in sesame seeds. My take is much easier with the same comforting taste reminiscent of a rainy day in Kenya. Perfect with a cup of chai!",
       "image": null
     },
     {
@@ -72,21 +72,21 @@
       "servingSize": "2 people",
       "calories": "450 kcal",
       "category": {
-        "id": 4
+        "id": 2
       },
       "description": "Lettuce just talk about how amazing this combination is! This is the perfect low carb, high protein vegan meal.",
       "image": null
     },
     {
       "title": "Vegetable Fritters",
-      "method": "Grate 1 sweet potato, 2 small carrots / 1 large carrot, 1 courgette, a handful of chopped spinach and then leave in a bowl with a table spoon of salt to release the water.\n\nSqueeze out all the water using a towel\n\nSeason with 4 gloves of grated garlic + 1 finely chopped chilli + 1 bunch chopped spring onions + salt + pepper + chilli powder + coriander powder (1/2 tsp each)\n\nBind with 1 egg and 3 table spoons chickpea flour (or until you reach the right consistency)\n\nMake small patties and cook on a pan with a table spoon of oil - bake for extra crispness 🥔 Top / serve with greek yoghurt mixed with Harissa",
+      "method": "Grate the potato, courgette and carrots and then leave in a bowl with a table spoon of salt to release the water.\n\nSqueeze out all the water using a towel\n\nSeason with the garlic, chopped chilli. chopped spring onions, salt, pepper, chilli powder and coriander powder\n\nBind with the egg and add chickpea flour until you get a consistency you can form patties with.\n\nMake small patties and cook on a pan with a table spoon of oil - bake for extra crispness.\n\nTop / serve with greek yoghurt mixed with Harissa",
       "ingredients": "1 sweet potato\n\n2 small carrots\n\n1 courgette\n\nChopped Spinach\n\n1 Bunch spring onions\n\n6 Cloves Garlic\n\n1/2 tsp each Salt + pepper + chilli powder + coriander powder\n\n1 Egg\n\n3tbsp Chickpea flour\n\n1 cup greek yoghurt\n\n1 tbsp Harissa Paste",
       "slug": "vegetable-fritters",
       "cookingTime": "30 mins",
       "servingSize": "1 person",
       "calories": "90 kcal /fritter",
       "category": {
-        "id": 3
+        "id": 2
       },
       "description": "This stack of fritters isnt just all of your 5 a day, its flipping delicious too. Perfect for guilt free, tasty dinner or snack - or should I say stack",
       "image": null
@@ -100,9 +100,23 @@
       "servingSize": "3 people",
       "calories": "600 kcal",
       "category": {
-        "id": 2
+        "id": 4
       },
       "description": "Deliciosa Paella! This Paella will take you to Spain and back. Bursting with flavour the stock really is the star of the show.",
+      "image": null
+    },
+    {
+      "title": "Tamago Sando",
+      "method": "Hard Boil the eggs until the yolk is 90% cooked\n\nSeason with a handful of spring onions, salt, pepper and siracha mayo\n\nServe in a slightly toasted brioche bread with the crust off",
+      "ingredients": "3 eggs\n\n1 Bunch spring onions\n\nBrioche bread\n\nSiracha Mayo\n\n",
+      "slug": "tamago-sando",
+      "cookingTime": "10 mins",
+      "servingSize": "1 person",
+      "calories": "400 kcal",
+      "category": {
+        "id": 3
+      },
+      "description": "The three eggmigos! Unpopular opinion but sandos > sandwiches anyday. This delicious will transport you to a cafe in Japan",
       "image": null
     }
   ]
