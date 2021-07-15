@@ -4,6 +4,12 @@ const useStyles = makeStyles((theme) => ({
   app: {
     backgroundColor: theme.theme.colors.primary,
   },
+  nav: {
+    position: 'fixed',
+    width: '100%',
+    top: '0',
+    zIndex: '100',
+  },
   grow: {
     flexGrow: 1,
   },

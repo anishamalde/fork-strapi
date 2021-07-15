@@ -16,7 +16,6 @@ function App() {
     <SearchProvider>
       <ApolloProvider client={client}>
         <StyleWrapper>
-          <TopNav />
           <Switch>
             <Route path='/' component={HomeScreen} exact />
             <Route path='/search' component={SearchResultsScreen} exact />

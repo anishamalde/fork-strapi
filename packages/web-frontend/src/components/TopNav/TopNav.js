@@ -10,7 +10,7 @@ const TopNav = () => {
   const classes = useStyles();
 
   return (
-    <>
+    <div className={classes.nav}>
       <Link to={`/`} className={classes.topNav}>
         <Avatar className={classes.homeLogo} alt='Fork logo' src={logo} />
         <img src={forkText} alt='Fork logo text' className={classes.image} />
@@ -18,18 +18,13 @@ const TopNav = () => {
       <div className={classes.grow}>
         <AppBar className={classes.app} position='static'>
           <Toolbar>
-            {/* <Query query={CATEGORIES_QUERY} slug={null}>
-              {({ data: { categories } }) => {
-                return <SideNav categories={categories} />;
-              }}
-            </Query> */}
             <SideNav />
             <SearchBar />
             <div className={classes.grow} />
           </Toolbar>
         </AppBar>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router';
 import { Query } from '../../components';
 import { IngredientsList, MethodList, RecipeInfoCard } from '../../components';
+import Page from '../../templates/Page/Page';
 import { Typography, Paper, Grid } from '@material-ui/core';
 import RECIPE_QUERY from '../../queries/recipe/recipe';
 import useStyles from './Recipe.styles';
@@ -15,7 +16,7 @@ const Recipe = () => {
       {({ data: { recipes } }) => {
         if (recipes.length) {
           return (
-            <>
+            <Page>
               <Grid container className={classes.grid}>
                 <Grid item xl={11} xs={12} className={classes.recipeTitle}>
                   <Typography variant='h3'>{recipes[0].title}</Typography>
@@ -46,7 +47,7 @@ const Recipe = () => {
                   </Paper>
                 </Grid>
               </Grid>
-            </>
+            </Page>
           );
         }
       }}

@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     padding: '16px',
   },
   image: {
-    zIndex: '20',
+    zIndex: '10',
     marginTop: '-32px',
     [theme.breakpoints.down('sm')]: {
       marginTop: '-16px',
