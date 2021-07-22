@@ -75,8 +75,8 @@ const SideNav = () => {
 
   return (
     <>
-      <Button onClick={toggleDrawer('left', true)}>
-        <MenuIcon className={classes.menu} />
+      <Button className={classes.menu} onClick={toggleDrawer('left', true)}>
+        <MenuIcon />
       </Button>
 
       <SwipeableDrawer

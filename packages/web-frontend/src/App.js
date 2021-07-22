@@ -2,7 +2,6 @@ import React from 'react';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Switch, Route } from 'react-router-dom';
 import client from './utils/apolloClient';
-import { TopNav } from './components';
 import {
   HomeScreen,
   Recipe,
