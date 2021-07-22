@@ -34,7 +34,6 @@ const SideNav = () => {
   const list = (anchor) => (
     <Query query={CATEGORIES_QUERY} slug={null}>
       {({ data: { categories } }) => {
-        console.log(categories);
         return (
           <div
             className={classes.list}
