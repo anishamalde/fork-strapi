@@ -23,16 +23,18 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     justifyContent: 'center',
-    padding: '16px',
+    padding: '32px',
+    [theme.breakpoints.down('sm')]: {
+      padding: '16px',
+    },
   },
   image: {
-    zIndex: '20',
+    zIndex: '10',
     marginTop: '-32px',
     [theme.breakpoints.down('sm')]: {
       marginTop: '-16px',
     },
     position: 'relative',
-    width: '100%',
   },
 }));
 export default useStyles;
