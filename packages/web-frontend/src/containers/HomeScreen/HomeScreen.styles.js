@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
   grid: {
     padding: '32px',
     justifyContent: 'center',
+    [theme.breakpoints.down('sm')]: {
+      padding: '16px',
+    },
   },
   welcomeText: {
     marginTop: '32px',

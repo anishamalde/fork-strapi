@@ -2,7 +2,6 @@ import React from 'react';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Switch, Route } from 'react-router-dom';
 import client from './utils/apolloClient';
-import { TopNav } from './components';
 import {
   HomeScreen,
   Recipe,
@@ -16,7 +15,6 @@ function App() {
     <SearchProvider>
       <ApolloProvider client={client}>
         <StyleWrapper>
-          <TopNav />
           <Switch>
             <Route path='/' component={HomeScreen} exact />
             <Route path='/search' component={SearchResultsScreen} exact />

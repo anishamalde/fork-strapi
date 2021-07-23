@@ -34,7 +34,6 @@ const SideNav = () => {
   const list = (anchor) => (
     <Query query={CATEGORIES_QUERY} slug={null}>
       {({ data: { categories } }) => {
-        console.log(categories);
         return (
           <div
             className={classes.list}
@@ -75,8 +74,8 @@ const SideNav = () => {
 
   return (
     <>
-      <Button onClick={toggleDrawer('left', true)}>
-        <MenuIcon className={classes.menu} />
+      <Button className={classes.menu} onClick={toggleDrawer('left', true)}>
+        <MenuIcon />
       </Button>
 
       <SwipeableDrawer
