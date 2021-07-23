@@ -6,6 +6,7 @@ import Page from '../../templates/Page/Page';
 import { Typography, Paper, Grid } from '@material-ui/core';
 import RECIPE_QUERY from '../../queries/recipe/recipe';
 import useStyles from './Recipe.styles';
+import Image from 'material-ui-image';
 
 const Recipe = () => {
   const classes = useStyles();
@@ -22,7 +23,7 @@ const Recipe = () => {
                   <Typography variant='h3'>{recipes[0].title}</Typography>
                 </Grid>
                 <Grid item xl={6} lg={8} xs={10}>
-                  <img
+                  <Image
                     alt={recipes[0].title}
                     className={classes.image}
                     src={recipes[0].image.url}
