@@ -28,7 +28,7 @@ const IngredientsList = ({ ingredients }) => {
     <List className={classes.root} aria-label='ingredients'>
       {ingredientsArray.map((ingredient, index) => {
         return (
-          <ListItem className={classes.listItem}>
+          <ListItem className={classes.listItem} key={`ingredient ${index}`}>
             <ListItemIcon>
               <Checkbox
                 checked={checked[index]}

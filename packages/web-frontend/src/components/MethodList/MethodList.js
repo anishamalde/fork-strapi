@@ -10,7 +10,7 @@ const MethodList = ({ method }) => {
     <List className={classes.root} aria-label='method'>
       {methodArray.map((methodItem, index) => {
         return (
-          <ListItem>
+          <ListItem key={`method ${index}`}>
             <ListItemIcon>{index + 1}</ListItemIcon>
             <ListItemText>{methodItem}</ListItemText>
           </ListItem>
